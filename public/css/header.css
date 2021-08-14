@@ -1,0 +1,61 @@
+header {
+    background-color: var(--colorAmarillo);
+}
+
+header nav div a {
+    display: block;
+}
+
+header nav {
+    margin-bottom:20px;
+}
+
+header section.busqueda{
+    display: flex;
+}
+header div.buscador{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0 20px 0 0;
+    background-color: var(--colorBlanco);
+    border: 1px solid black;
+    color: black;
+}
+header div.lupa{
+    
+    background-color: var(--colorGrisClaro);
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 2px;
+    margin: 0px 10px;
+    color: black;
+    width: 20px;
+}
+
+header nav div p {
+    text-align: center;
+}
+
+header nav ul li a {
+    font-size: 12px;
+    display: inline-block;
+    color: black;
+}
+
+header div.burger-menu{
+    display: block;
+    text-align: center;
+    
+    
+}
+
+header div.burger-menu i {
+    border: solid 1px black;
+    width: 10%;
+    background-color: var(--colorAzul);
+    color: var(--colorBlanco);
+    border-radius: 5%;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom:20px;
+}
