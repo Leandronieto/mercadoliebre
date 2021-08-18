@@ -1,13 +1,50 @@
+main {
+    background-color: rgb(204, 203, 203);
+}
+
+
 main header img{
     width: 100%;
 }
+
+main section.main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #ffffff;
+
+} 
+
+main section article {
+    margin-bottom:10px;
+    
+
+}
+
+main article.descripcion {
+    border-top: solid 1px #ebebeb;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+
+main article.descripcion a i {
+    margin-top: 10px;
+}
+
 
 main article img {
     width: 100%;
 }
 
+main section a {
+    width: 100%;
+}
+
 main section h2{
     font-size: 24px;
+    background-color: rgb(204, 203, 203);
 }
 
 main article ul li.precio {
@@ -16,4 +53,11 @@ main article ul li.precio {
 
 main article ul li{
     font-size: 16px;
+}
+
+@media (min-width: 361px) {
+
+    main section.main{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }

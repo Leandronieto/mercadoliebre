@@ -52,10 +52,28 @@ header div.burger-menu{
 header div.burger-menu i {
     border: solid 1px black;
     width: 10%;
-    background-color: var(--colorAzul);
+    background-color: blue;
     color: var(--colorBlanco);
-    border-radius: 5%;
+    border-radius: 5px;
     font-size: 20px;
     padding: 5px;
     margin-bottom:20px;
+}
+
+header nav.navbar-menu {
+    display: none;
+    
+    
+}
+
+@media (min-width: 361px){
+    header div.burger-menu{
+        display: none;
+    }
+
+    header nav.navbar-menu {
+        display: block;
+}
+
+
 }
