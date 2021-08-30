@@ -23,3 +23,9 @@ footer article.findepagina{
     font-size: 10px;
 }
 
+footer article.findepagina h2 {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
