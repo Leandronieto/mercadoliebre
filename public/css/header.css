@@ -2,6 +2,39 @@ header {
     background-color: var(--colorAmarillo);
 }
 
+header nav.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header nav.navbar div.mobile {
+   width: 49%;
+}
+
+
+
+header nav.navbar div.buscador {
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%
+}
+
+header nav.navbar div.buscador div.buscar {
+    width: 84%;
+}
+
+header nav.navbar div.buscador div.buscar form input{
+    width: 98%;
+}
+
+header nav.navbar div.buscador div.lupa {
+    width: 15%;
+}
+
+
 header nav div a {
     display: block;
 }
@@ -12,8 +45,9 @@ header nav {
 
 header section.busqueda{
     display: flex;
+
 }
-header div.buscador{
+header nav.navbar div.mobile section div.buscador{
     display: inline-block;
     margin-left: 15px;
     padding: 0 20px 0 0;
@@ -21,7 +55,7 @@ header div.buscador{
     border: 1px solid black;
     color: black;
 }
-header div.lupa{
+header nav.navbar div.mobile section  div.lupa{
     
     background-color: var(--colorGrisClaro);
     border: 1px solid black;
@@ -110,6 +144,20 @@ header nav {
         align-items: center;
         justify-content: space-between;
     }
+
+    header nav.navbar div.mobile {
+        width: 33%;
+    }
+    
+    
+    
+    header nav.navbar  div.buscador {
+        width: 33%
+    }
+    
+
+
+
     header nav.navbar div {
         width: 33%;
         max-width: 300px;
@@ -132,6 +180,7 @@ header nav {
     header nav.navbar div.text-header {
         display: flex;
         justify-content: flex-end;
+        width: 33%;
     }
 
     header nav.navbar div.text-header p {
